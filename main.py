@@ -13,7 +13,7 @@ try:
         id = input('\nDigite o ID do aluno (0 para sair) -> ')
         os.system('cls')
 
-        if id == 'S':
+        if id == '0':
             break
         else:
             pass
@@ -23,7 +23,7 @@ try:
 
         print(f'+{"-"*3}+{"-"*50}+{"-"*80}+')
         print(f'|{"ID":^3}|{"NOME":^50}|{"E-MAIL":^80}|')
-        print(f'|{"-"*3}|{"-"*50}|{"-"*80}|')
+        print(f'|{"-"*3}+{"-"*50}+{"-"*80}|')
         print(f'|{rows[0][0]:^3}|{rows[0][1]:^50}|{rows[0][2]:^80}|')
         print(f'+{"-"*3}+{"-"*50}+{"-"*80}+')
 
